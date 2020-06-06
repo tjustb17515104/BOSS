@@ -1,0 +1,47 @@
+ "UTF-8";
+* { margin: 0; padding: 0 }
+/*body{font: 12px/1.5 'Microsoft Yahei', 'Simsun'; background:#fffbf0 url(../images/new_top.jpg)  50% -60px scroll no-repeat;color:#5d5d5d; background-position: 50% 0%;}*/
+body{font: 12px/1.5 'Microsoft Yahei', 'Simsun'; background-color: #fffbf0; color:#5d5d5d;}
+img { border: 0; display: block }
+ul { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+a { outline: none; }
+a:link, a:visited { text-decoration: none; color: #666 }
+a:hover { text-decoration: none; }
+.clear { clear: both; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+.f_l { float: left }
+.f_r { float: right }
+.l_box { width: 670px; }
+.r_box { width: 300px; }
+/* 头部信息 */
+.topbg { background: #f3f3f3; height: 30px; line-height: 30px; width: 100%; }
+.topbgline { height: 1px; width: 100%; margin-top: 1px; background: #E6E6E6 }
+.topnav { width: 1000px; margin: auto; text-align: right; }
+.topnav a { margin-left: 20px }
+.topnav a:hover { color: #000 }
+/*.logo { width: 1000px; height: 170px; margin: 30px auto; overflow: hidden; clear: both }*/
+.logo { height: 170px; overflow: hidden; clear: both; background:#E8F0E8 url(../images/header.jpg) scroll no-repeat; background-size: cover; -moz-background-size: cover;  -webkit-background-size: cover;}
+.search {
+    float:right;
+    margin: 8px 20px 0 0;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+/*这行需要改进的*/
+#topnav { width: 100%; background: #BFAB86; height: 50px; line-height: 47px; /*margin-top: 140px;*/}
+#topnav ul { width: 1000px; margin: auto }
+#topnav a { display: inline-block; font-size: 18px; font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif; padding: 0 20px; }
+#topnav a:hover { background: #fffbf0; color: #000; border-top: 4px solid #f77825; }
+#topnav a{ color:#FFF}
+#topnav_current { background: #fffbf0; border-top: 4px solid #f77825; color: #000 }/* 高亮选中颜色 */
+a#topnav_current { color:#000}
+article { width: 1000px; margin: 20px auto; }
