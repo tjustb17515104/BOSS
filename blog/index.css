@@ -21,7 +21,7 @@ a:hover { text-decoration: none; }
 .topnav a { margin-left: 20px }
 .topnav a:hover { color: #000 }
 /*.logo { width: 1000px; height: 170px; margin: 30px auto; overflow: hidden; clear: both }*/
-.logo { height: 170px; overflow: hidden; clear: both; background:#E8F0E8 url(../images/header.jpg) scroll no-repeat; background-size: cover; -moz-background-size: cover;  -webkit-background-size: cover;}
+.logo { height: 170px; overflow: hidden; clear: both; background:#E8F0E8 url(images/header.jpg) scroll no-repeat; background-size: cover; -moz-background-size: cover;  -webkit-background-size: cover;}
 .search {
     float:right;
     margin: 8px 20px 0 0;
@@ -44,4 +44,33 @@ a:hover { text-decoration: none; }
 #topnav a{ color:#FFF}
 #topnav_current { background: #fffbf0; border-top: 4px solid #f77825; color: #000 }/* 高亮选中颜色 */
 a#topnav_current { color:#000}
+/*文章部分*/
 article { width: 1000px; margin: 20px auto; }
+.board_1 { height : 400px; width : 1000px; overflow : hidden; }
+.board_2 { margin: 20px 0; }
+.board_2 h2 { font-size: 16px; font-weight: bold; line-height: 36px; color: #333; border-bottom: #db6d4c 4px solid; }
+.board_2 h2 span { float: right; font-size: 12px; font-weight: normal; }
+.board_2 h2 span a { display: inline-block; padding: 0 5px; }
+.board_2 h2 span a:hover { color: #000 }
+
+.blogs { padding: 30px 0; position: relative; border-bottom: #BFAB86 1px solid;  overflow: hidden }
+.blogs h3 { font-size: 16px; font-weight: bold; transition: all .5s; margin-bottom: 10px }
+.blogs h3 a { color: #474645; }
+.blogs h3 a:hover { color: #066; text-decoration: underline }
+.blogs figure { float: left; width: 25%; overflow: hidden; cursor: pointer; }
+.blogs figure img { width: 100%; margin: auto; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.blogs figure:hover img { -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
+.blogs ul { float: right; line-height: 22px; width:63%; color: #777; }
+.blogs:hover{ background:#fff}
+
+.detail { overflow: hidden; clear: both; margin: 10px 0; display: inline-block; color: #999; width: 100%;  }
+.detail span { margin: 0 10px 0 0; padding-left: 20px }
+.detail span a { color: #999; }
+.detail span a:hover { text-decoration: underline }
+.detail_1 { background: url(../images/mynewsbg.png) no-repeat center;background-position:0px 4px;}
+.zan{ padding-left: 0;}
+.zan .yz_zan{padding-left:20px;color:#999999;font-size:12px;background:url(../images/list_icon.png) no-repeat -47px -297px;}
+.zan .yz_zan:hover{color:#406ca9;background-position:-47px -327px; text-decoration:none;}
+.zan em{left:0;top:-15px;font-family:Arial, Helvetica, sans-serif;color:#ff9300;}
+.f_l{float: left;}
+.f_r{float: right;}
