@@ -17,10 +17,13 @@
       </div>
       <div class="topbgline"></div>
       <div class="logo"></div>
-      <div class="search" style="background-color: #fff;">
-        <input type="text" name="q" placeholder="搜索..." class="text" onkeydown="entersearch(event)">
-        <input type="button" class="btn" id="searchTxt" value="搜索">
-      </div>
+      <form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+        <div class="search" style="background-color: #fff;" >   
+            <input id="input_baidu" type="text"  onfocus="checkHttps" name="word" size="30" placeholder="搜索..." class="text" onkeydown="entersearch(event)"/>
+            <input type="submit" class="btn" value="搜索">
+        </div>
+     </form>
+
       <nav id="topnav">
         <ul>
           <a href="" title="首页" class="nav_first" id="topnav_current">首页</a>
@@ -161,5 +164,7 @@
         </div>
       </div>
     </article>  
+
+    
 </body>
 </html>

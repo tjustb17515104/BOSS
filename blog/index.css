@@ -21,7 +21,7 @@ a:hover { text-decoration: none; }
 .topnav a { margin-left: 20px }
 .topnav a:hover { color: #000 }
 /*.logo { width: 1000px; height: 170px; margin: 30px auto; overflow: hidden; clear: both }*/
-.logo { height: 170px; overflow: hidden; clear: both; background:#E8F0E8 url(images/header.jpg) scroll no-repeat; background-size: cover; -moz-background-size: cover;  -webkit-background-size: cover;}
+.logo { height: 300px; overflow: hidden; clear: both; background:#E8F0E8 url(images/log.png) scroll no-repeat; background-size: 100% 300px; -moz-background-size: cover;  -webkit-background-size: cover;}
 .search {
     float:right;
     margin: 8px 20px 0 0;
@@ -36,8 +36,40 @@ a:hover { text-decoration: none; }
     -o-transition: all .5s;
     transition: all .5s;
 }
+.search .text {
+    width:50px;
+    padding:2px 3px 1px 3px;
+    float:left;
+    font-size:14px;
+    font-family:"t","microsoft yahei";
+    height:28px;
+    line-height:30px;
+    text-indent:10px;
+    border:0;
+    border-radius:20px;
+    outline:0;
+    background:transparent;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s;
+    margin-bottom: 2px;
+}
+.search .btn {
+    width:30px;
+    height:30px;
+    float:left;
+    margin:0 8px 0 0;
+    text-indent:-999px;
+    border:0;
+    cursor:pointer;
+    background:url(/images/search.jpg) no-repeat 0 ;
+    outline: 0;
+}
+.search:hover {border:1px solid #2F889A;background:#fff;}
+.search:hover .text {width:80px;}
 /*这行需要改进的*/
-#topnav { width: 100%; background: #BFAB86; height: 50px; line-height: 47px; /*margin-top: 140px;*/}
+#topnav { width: 100%; background: #735dd8; height: 50px; line-height: 47px; /*margin-top: 140px;*/}
 #topnav ul { width: 1000px; margin: auto }
 #topnav a { display: inline-block; font-size: 18px; font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif; padding: 0 20px; }
 #topnav a:hover { background: #fffbf0; color: #000; border-top: 4px solid #f77825; }
